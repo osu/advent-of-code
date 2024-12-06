@@ -1,5 +1,4 @@
-```
-require 'set'  # Add this at the top
+require 'set'  
 
 class GuardPatrol
   DIRECTIONS = {
@@ -132,4 +131,3 @@ guard = GuardPatrol.new(input)
 
 puts "Part 1: #{guard.count_visited_positions}"
 puts "Part 2: #{guard.count_loop_positions}"
-```
